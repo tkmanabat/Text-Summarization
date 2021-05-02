@@ -1,5 +1,6 @@
 from transformers import pipeline 
 import streamlit as st
+from PIL import Image 
 
 #tab name and favicon
 st.set_page_config(page_title='Text Summarizer', page_icon='📖', layout='centered')
@@ -8,11 +9,14 @@ st.set_page_config(page_title='Text Summarizer', page_icon='📖', layout='cente
 summarizer=pipeline('summarization')
 
 
+
+image=Image.open('image.jpg')
+st.image(image,use_column_width=True)
+
 st.write("""
 # Text Summarizer 🎨 
 Using Hugging Face Transformers 🤗
 """)
-
 
 input=st.text_area('Enter your Text',height=300)
 
