@@ -10,8 +10,8 @@ summarizer=pipeline('summarization')
 
 
 
-image=Image.open('image.jpg')
-st.image(image,use_column_width=True)
+#image=Image.open('image.png')
+st.image('bot.gif',use_column_width=True)
 
 st.write("""
 # Text Summarizer 🎨 
