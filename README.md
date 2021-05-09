@@ -16,8 +16,8 @@ This Streamlit web application utilizes [Hugging Face Transformers](https://hugg
 Hugging Face Transformers provides thousands of pretrained models to perform tasks on texts such as classification, information extraction, question answering, summarization, translation, text generation, etc in 100+ languages. Its aim is to make cutting-edge NLP easier to use for everyone.
 
 ## Snapshots 📷
-![](Screenshots\Snap1.PNG)
+![](Screenshots/Snap1.PNG)
 With Input 
-![](Screenshots\Snap2.PNG)
+![](Screenshots/Snap2.PNG)
 
 
