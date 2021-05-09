@@ -18,6 +18,6 @@ Hugging Face Transformers provides thousands of pretrained models to perform tas
 ## Snapshots 📷
 ![](Screenshots/Snap1.PNG)
 With Input 
-![](Screenshots/Snap2.PNG)
+![](Screenshots/Snap2.png)
 
 
